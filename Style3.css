@@ -1,0 +1,169 @@
+body {
+    font-family:Arista;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    margin-top: -105px;     
+}
+
+
+.Logo{
+    margin-top: -170px;
+    margin-left: -28px;
+    margin-bottom: -23px;
+     
+}
+
+
+
+.menu-title {
+    font-size: 32px;
+    color: #000000; 
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Arista;
+    font-weight: bold;
+}
+
+
+.menu {
+    text-align: Arista;
+
+  }
+  
+  .menu-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-links li {
+    display: inline-block; 
+    margin: 0 10px;
+  }
+
+  
+  .menu-links a {
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    text-align: center;
+    padding: 15px;
+    transition: 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    margin: 15px 0; 
+    font-size: 20px; 
+  }
+
+
+  
+  
+  .menu-links a[class="Matemáticas"] {
+    color: #DB7093; 
+    background-color: #FFB6C1; 
+}
+
+.menu-links a[class="Matemáticas"]:hover {
+  color: #C71585; 
+  background-color: #FF82AB; 
+}
+
+.menu-links a[class="#quimica"] {
+    color: #DB7093;
+    background-color: #FFB6C1;
+}
+
+.menu-links a[class="#quimica"]:hover {
+    color: #C71585; 
+    background-color: #FF82AB; 
+}
+  
+  .menu-links a[class="#tecnologia"] {
+    color: #FF8C00; 
+    background-color: #ffc080;
+  }
+  
+  .menu-links a[class="#tecnologia"]:hover {
+    color: #FF4500; 
+    background-color: #ffa060;  
+  }
+  
+ 
+
+
+  .menu-links a:hover {
+    transform: scale(1.05);   
+    }
+
+    .footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      background-color: #ffffff;
+  }
+
+
+
+
+
+  .Nosotras {
+    font-size: 16px; 
+    color: #4a4949; 
+    margin-top: 75px; 
+    text-align: center; 
+    text-decoration: none;
+}
+
+.Nosotras:hover {
+  text-decoration: underline;
+  color: #000; 
+  
+}
+
+  
+  .image-left, .image-right {
+      width: 300px;
+      height: auto;
+  }
+  
+  .image-left {
+      margin-left: 20px;
+  }
+  
+  .image-right {
+      margin-right: 70px;
+  }
+
+
+
+          
+
+       
+        
+          

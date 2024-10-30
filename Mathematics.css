@@ -1,0 +1,399 @@
+body {        
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            font-family: Raleway;
+        }
+
+
+
+        header {
+            background-color: #ffffff;
+            color: #ADD8E6; 
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);            
+        }
+
+        .b{
+        text-decoration: none;
+            }
+
+
+
+        nav {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ADD8E6;
+            font-weight: bold;
+        }
+
+        
+
+        .Subtitle {
+            background-image: url('https://w.wallhaven.cc/full/4d/wallhaven-4dr9vg.png/1200x300'); 
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px;
+            text-align: center;
+            color: #49767a;
+        }   
+
+        .Subtitle h1 {
+            font-size: 2.2em;
+            margin: 0;
+            font-family: Mon;
+            font-weight: 500;
+        }
+
+
+        .Formula{
+            margin-left: 800px;
+        }
+
+       
+
+        .palabra{
+            margin-left: 700px;
+            margin-top: -66px;
+        }
+
+
+        .section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            
+        }
+
+        .section img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+
+
+        .questions-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .imc{
+            position: absolute;
+            top:550px;
+            right: 13px;
+            width: 400px;
+            margin-right: 100px;
+            
+        }
+
+        .questions-column {
+            flex: 1;
+            min-width: 300px;
+        
+        }
+
+        .questions-column h2{
+            font-size: 18px;
+            color:#49767a; 
+            margin-bottom: 10px;
+            
+        
+        }
+
+        .p1{
+            margin-top: -90px;
+        }
+
+        .p{
+            margin-top: 560px;
+
+        
+        }
+        
+        .p2{
+            margin-top: 100px;
+        }
+
+        .lista1{
+            margin-left: 10px; 
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+
+        .lista1 li{
+            margin-bottom: 20px;
+        }
+
+        .condiciones {
+            margin-left: 500px;
+            margin-top: -310px;
+            padding-left: 3px;
+       
+           
+        }
+
+        .condiciones li{
+            
+            margin-bottom: 50px;
+           
+        }
+
+        .rango{
+            position: relative;
+        }
+
+        .equilibrio {
+            position: absolute;
+            top:970px;
+            right: 13px;
+            width: 400px;
+            margin-right: 800px;
+        }
+
+
+
+
+
+
+
+
+
+
+        .section1{
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            margin-top: -35px;
+            
+        }
+
+
+        .section1 h2 {
+            font-size: 18px;
+            color:#49767a; 
+            margin-bottom: 10px;
+            
+        
+        }
+
+        .section1 h3{
+            font-size: 17px;
+            color:#49767a; 
+            margin-bottom: 10px;
+            
+        
+        }
+
+      .section1 ul{
+        margin-left: 230px;
+        margin-top: 53px;
+      }
+
+
+
+      .Kcal{
+        width: 250px;
+        float: left;
+        margin-left: 10px;
+        margin-top: -170px;
+        position: absolute;
+        z-index: -1;
+       } 
+
+
+
+
+
+    .section2{
+        padding: 20px;
+        margin: 20px;
+        border-radius: 8px;
+        margin-top: -75px;
+        
+    }
+
+
+    .section2 h2 {
+        font-size: 18px;
+        color:#49767a; 
+        margin-bottom: 10px;
+        
+    
+    }
+
+
+    .section2 h3{
+        font-size: 17px;
+        color:#49767a; 
+        margin-bottom: 10px;
+        
+    
+    }
+
+    .section2 h2{
+        margin-top: 103px;
+    }
+
+    .mas{
+        position: absolute;
+        width: 200px;
+        top: 1850px;
+        margin-left: 823px;
+        z-index: -1; 
+       }
+
+
+
+
+
+
+    .section3{
+        padding: 20px;
+        margin: 20px;
+        border-radius: 8px;
+        margin-top: -95px;
+        
+    }
+
+
+    .section3 h2 {
+        font-size: 18px;
+        color:#49767a; 
+        margin-bottom: 10px;
+        
+    
+    }
+
+    .section3 h2{
+        margin-top: 103px;
+    }
+
+        
+    .image-container1{
+        margin-left: 20px;
+       }
+
+    .micro{
+        width: 200px;
+        float: right;
+        margin-right: 100px;
+        margin-top: -300px;
+       }
+
+
+
+
+
+
+    .section4{
+        padding: 20px;
+        margin: 20px;
+        border-radius: 8px;   
+        margin-top: -23px;
+    }
+
+
+    .section4 h2 {
+        font-size: 18px;
+        color:#49767a; 
+        margin-bottom: 10px;
+    }
+
+    .section4 p{
+    padding-left: 20px;
+    width: 900px; 
+    }
+
+    .section4 ul{
+        width: 700px; 
+        padding-left: 20px;
+        }
+
+
+       
+    .relacionan{
+    width: 253px;
+    position: absolute;
+    margin-left: 920px;
+    margin-top: -223px;
+    border-radius: 5px;
+    }    
+
+
+
+
+
+
+
+    
+
+
+    .container {
+        background-color: #ffffff; 
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(73, 118, 122, 0.3); 
+        width: 300px;
+        text-align: center;
+        margin: 100px auto; 
+    }
+    
+    h1 {
+        margin-bottom: 20px;
+        color: #49767a; 
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #49767a; 
+    }
+    
+    input {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #49767a; 
+        border-radius: 5px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #49767a; 
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #365e61; 
+    }
+    
+    #result {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #49767a;
+    }
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+        bottom: 0;
+        box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        
+    }
+    

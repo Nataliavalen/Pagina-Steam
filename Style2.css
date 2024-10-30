@@ -1,0 +1,86 @@
+.tdo {
+    margin-top: 50px;
+    border: 3px solid transparent;
+    background-image: linear-gradient(white, white), linear-gradient(45deg, #FFB3B3, #FFE5B4, #D3ECA7);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border-radius: 15px; 
+    padding: 60px;
+    width: 400px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+    
+}
+
+.lo{
+    width: 98px;
+    margin-top:6px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em; 
+    color: #333; 
+    margin-bottom: 30px;
+    text-align: center; 
+}
+
+
+
+.button1 {
+            background-color: #F7D8A3; 
+    color: black; 
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-weight: bold;
+    font-size: 15px; 
+    
+     
+}
+
+.button1:hover {
+    opacity: 0.8;
+}
+
+
+.C1{
+    border: none;
+    border-radius: 8px ;
+    padding: 6px 15px;
+    font-weight: bold;
+    font-size: 15px;
+     
+    
+}
+
+.C1:hover{
+    background-color:  #F3D8C4;
+    }
+
+.C1:focus {
+    background-color:transparent;
+    outline: 2px solid #F7D8A3; 
+    outline-offset: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

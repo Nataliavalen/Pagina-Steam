@@ -1,0 +1,47 @@
+
+@font-face {
+  font-family: 'Arista';
+  src: url(../Fonts/Arista-Pro-Light-trial.ttf) format('truetype') ;
+  font-weight: normal;
+  font-style: normal;
+ 
+}
+
+
+@font-face {
+  font-family: 'Open';
+  src: url(../Fonts/OpenSans-VariableFont_wdth\,wght.ttf) format('truetype') ;
+  font-weight: normal;
+  font-style: normal;
+ 
+}
+
+@font-face {
+  font-family: 'Arista1';
+  src: url(../Fonts/Arista-Pro-Bold-trial.ttf) format('truetype') ;
+}
+
+
+@font-face {
+  font-family: 'Mon';
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf) format('truetype') ;
+  font-weight: normal;
+  font-style: normal;
+  
+}
+
+@font-face {
+  font-family: 'HK';
+  src: url(../Fonts/HankenGrotesk-VariableFont_wght.ttf) format('truetype') ;
+  font-weight: normal;
+  font-style: normal;
+ 
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(../Fonts/Raleway-VariableFont_wght.ttf) format('truetype') ;
+  font-weight: normal;
+  font-style: normal;
+ 
+}

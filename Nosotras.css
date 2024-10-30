@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f5; 
+    color: #333;
+}
+
+
+header {
+    background-color: #ffb6c1; 
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+section {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); /* Sombra más suave */
+}
+
+/* Sección de equipo */
+#equipo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo de las tarjetas individuales */
+.persona {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #ffe4e1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.persona:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.persona img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #ffb6c1;
+}
+
+.persona h3 {
+    margin: 10px 0 5px 0;
+    font-size: 1.5em;
+    color: #db7093; 
+}
+
+.persona p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+#mision-vision {
+    background-color: #ffe4e1; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+#mision-vision h2 {
+    color: #db7093;
+}
+
+
+@media (max-width: 768px) {
+    .persona {
+        width: 80%;
+    }
+}
+
